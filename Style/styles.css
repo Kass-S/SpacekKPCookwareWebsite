@@ -1,0 +1,23 @@
+:root{
+    --footer-bg-promo: #1E2c20;
+    --stroke-for-card: #000000;
+    --grey-text: #292828;
+    --color-selector-card: #353535;
+}
+
+body{
+    background-color: #EDEDED;
+}
+
+.bg-test{
+    background-color: #D76151;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+
+.hero-img{
+    background-image: url(/assets/hero.jpg);
+    width: 100%;
+    height: 1000px;   
+}
