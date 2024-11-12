@@ -1,12 +1,20 @@
 :root{
+    --main-bg: #EDEDED;
     --footer-bg-promo: #1E2c20;
     --stroke-for-card: #000000;
     --grey-text: #292828;
-    --color-selector-card: #353535;
+    --nav-bar-text: #3F3C3C;
+    --orange-hover: #D76151;
+    --accent-red: #B73A2A;
+    --color-option-red: #EA2D2C;
+    --color-option-orange: #FB5108;
+    --color-option-yellow: #D29D12;
+    --color-option-card: #353535;
+
 }
 
 body{
-    background-color: #EDEDED;
+    background-color: var(--main-bg);
 }
 
 .white-text{
