@@ -39,6 +39,11 @@ body{
     object-fit: contain;
 }
 
+.hero-text{
+    /* font-family: ; */
+    
+}
+
 .promo-bar{
     background-color: var(--footer-bg-promo);
     height: 80px;
