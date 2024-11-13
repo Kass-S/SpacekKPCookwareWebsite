@@ -52,4 +52,5 @@ body{
 
 .footer-bg{
     background-color: var(--footer-bg-promo);
+    padding-bottom: 25px;
 }
