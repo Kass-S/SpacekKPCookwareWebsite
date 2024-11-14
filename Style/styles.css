@@ -255,4 +255,12 @@ body{
     background-color: var(--footer-bg-promo);
     padding-bottom: 25px;
 }
+
+.no-radius{
+    border-radius: 0px;
+}
+
+.border{
+    border: 1px solid white;
+}
 /* footer */
