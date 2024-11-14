@@ -210,27 +210,32 @@ body{
 
 
 /* Review */
+.review-card-dm{
+    height: 600px;
+    width: 550;
+    padding-top: 150px;    
+}
+
 .review-card-img-1{
     background-image: url(/assets/Reviews1.jpg);
     border-radius: 10px;
-    width: 400px;
-    height: 600px;
-    
+    background-repeat: no-repeat;
+    background-size: 125% 100%
 }
 
 .review-card-img-2{
     background-image: url(/assets/Reviews2.jpg);
     border-radius: 10px;
-    width: 400px;
-    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
     
 }
 
 .review-card-img-3{
     background-image: url(/assets/Reviews3.jpg);
     border-radius: 10px;
-    width: 400px;
-    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     
 }
 
