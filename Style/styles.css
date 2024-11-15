@@ -15,6 +15,9 @@
 
 body{
     background-color: var(--main-bg);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .white-text{
@@ -58,10 +61,9 @@ body{
     object-fit: contain;
 }
 
-/* .hero-text{
-    font-family: ;
-    
-} */
+.hero-text{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;  
+}
 
 .hero-text-position{
     margin-top: 670px;
@@ -92,6 +94,11 @@ body{
 .flex-box{
     display: flex;
     justify-content: center;
+}
+
+.card-size{
+    height: 600px;
+    width: 100%;
 }
 
 .new-arriaval-img{
@@ -126,8 +133,9 @@ body{
 .grid{
     display: grid;
     grid-template-rows: auto-fit 1fr .4fr;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 450px));
+    grid-template-columns: auto auto auto;
     gap: 40px;
+    max-width: 100%;
 }
 
 .card-center{
@@ -139,6 +147,7 @@ body{
     margin-top: 100px;
     margin-bottom: 50px;
     margin-left: 25px;
+    margin-right: 25px;
 }
 
 .best-seller-border{
@@ -274,22 +283,46 @@ body{
     }
 
     .new-arriaval-img{
-        height: 400px;
-        width: 500px;
+        height: 100%;
+        width: 100%;
     }
     /* new arrivial */
 
     /* Best Sellers */
     .grid{
-        display: grid;
-        grid-template-rows: auto-fit 1fr 1fr .4fr 1fr .4;
-        grid-template-columns: .5fr 1fr .5fr;
-        gap: 40px;
+        grid-template-rows: auto 1fr 1fr .4fr 1fr .4;
+        grid-template-columns: 1fr;
     }
 
     .best-seller-img{
         display: flex;
         justify-content: center;
+    }
+
+    .grid-item-grid{
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto 1fr 1fr;
+    }
+
+    .grid-item-img{
+        grid-row: 1;
+        grid-column: span 3;
+    }
+
+    .grid-item-headig{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .grid-item-text{
+        grid-row: 3;
+        grid-column: span 3;
+    }
+
+    .grid-item-btn{
+        grid-row: 4;
+        grid-column: 1;
     }
 
     .grid-item-1{
@@ -325,9 +358,8 @@ body{
 @media (max-width: 768px){
     /* Best Seller */
     .grid{
-        display: grid;
         grid-template-rows: auto-fit 1fr 1fr .4fr 1fr .4;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         gap: 40px;
     }
 
@@ -391,10 +423,8 @@ body{
 @media (max-width: 576px){
     /* Best Seller */
     .grid{
-        display: grid;
         grid-template-rows: auto-fit 1fr 1fr 1fr ;
         grid-template-columns: auto;
-        gap: 40px;
     }
 
     .best-seller-img{
