@@ -39,6 +39,7 @@ body{
     background-color: #D76151;
     padding: 6px 15px;
     border-radius: 5px;
+    margin-left: 48px;
 }
 
 .header-text{
@@ -307,6 +308,13 @@ body{
 /* footer */
 
 @media (max-width: 992px){
+    /* Header */
+    .header-logo{
+        margin-left: 0px;
+        margin-right: 48px;
+    }
+    /* header */
+
     /* Hero Image */
     .hero-img{
         height: 500px; 
