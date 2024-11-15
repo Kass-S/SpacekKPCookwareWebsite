@@ -370,6 +370,8 @@ body{
     .grid{
         grid-template-rows: auto 1fr 1fr .4fr 1fr .4;
         grid-template-columns: auto;
+        margin-left: 25px;
+    margin-right: 25px;
     }
 
     .best-seller-img{
