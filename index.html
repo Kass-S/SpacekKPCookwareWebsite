@@ -36,7 +36,7 @@
 
         <div
           class="offcanvas offcanvas-start"
-          tabindex="-1"
+          tabindex=""
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
@@ -49,7 +49,7 @@
             ></button>
           </div>
           <div class="offcanvas-body ">
-            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-">
               <li class="nav-item">
                 <a class="nav-link header-text" href="#">COOKWARE</a>
               </li>
@@ -96,17 +96,37 @@
         </div>
       </div>
       <div class="row d-flex justify-content-evenly">
-        <div class="col-lg-2 col-sm-6 pe-1 d-flex justify-content-center">
-          <div><img class="start-cooking-img rounded-4" src="./assets/StartCooking1.jpeg" alt="cast iron pot"><p>Cast Iron Pot</p></div>
+        <div class="col-lg-3 col-sm-6 pe-1 d-flex justify-content-center">
+          <div>
+            <div class="img-hover-zoom">
+              <img class="start-cooking-img rounded-4" src="./assets/StartCooking1.jpeg" alt="cast iron pot">
+            </div>
+            <p>Cast Iron Pot</p>
+          </div>
         </div>
-        <div class="col-lg-2 col-sm-6 px-1 d-flex justify-content-center">
-          <div><img class="start-cooking-img rounded-4" src="./assets/StartCooking2.jpeg" alt="stock pot"><p>Stock Pot</p></div>
+        <div class="col-lg-3 col-sm-6 px-1 d-flex justify-content-center">
+          <div>
+            <div class="img-hover-zoom">
+              <img class="start-cooking-img rounded-4" src="./assets/StartCooking2.jpeg" alt="stock pot">
+            </div>
+            <p>Stock Pot</p>
+          </div>
         </div>
-        <div class="col-lg-2 col-sm-6 px-1 d-flex justify-content-center">
-          <div><img class="start-cooking-img rounded-4" src="./assets/StartCooking3.jpeg" alt="sause pan"><p>Sause Pan</p></div>
+        <div class="col-lg-3 col-sm-6 px-1 d-flex justify-content-center">
+          <div>
+            <div class="img-hover-zoom">
+              <img class="start-cooking-img rounded-4" src="./assets/StartCooking3.jpeg" alt="sause pan">
+            </div>
+            <p>Sause Pan</p>
+          </div>
         </div>
-        <div class="col-lg-2 col-sm-6 ps-1 d-flex justify-content-center">
-          <div><img class="start-cooking-img rounded-4" src="./assets/StartCooking4.jpeg" alt="accessories"><p>Accessories</p></div>
+        <div class="col-lg-3 col-sm-6 ps-1 d-flex justify-content-center">
+          <div>
+            <div class="img-hover-zoom">
+              <img class="start-cooking-img rounded-4" src="./assets/StartCooking4.jpeg" alt="accessories">
+            </div>
+            <p>Accessories</p>
+          </div>
         </div>
       </div>
     </div>
@@ -120,7 +140,9 @@
         </div>
         <div class="flex-box">
           <div class="new-arriaval-box card-size">
-            <img class="new-arriaval-img new-arriaval-img-padding-right" src="./assets/NewArrivals1.jpg" alt="cast iron pot being placed in oven">
+            <div class="new-arriaval-hover">
+              <img class="new-arriaval-img new-arriaval-img-padding-right" src="./assets/NewArrivals1.jpg" alt="cast iron pot being placed in oven">
+            </div>
             <div class="new-arriaval-text-padding-right">
               <h3>Fall Collection</h3>
               <p>Our 2023 Fall Collection just came out with beautiful autumn color cookware.</p>
@@ -130,7 +152,9 @@
         
 
           <div class="new-arriaval-box card-size">
-            <img class="new-arriaval-img new-arriaval-img-padding-left" src="./assets/NewArrivals2.jpg" alt="wok with food inside">
+            <div class="new-arriaval-hover">
+             <img class="new-arriaval-img new-arriaval-img-padding-left" src="./assets/NewArrivals2.jpg" alt="wok with food inside">
+            </div>
             <div class="new-arriaval-text-padding-left">
               <h3>Nonstick Wok 14 inch </h3>
               <p>The nonstick wok is one of our most popular cookware. Perfect for everyday stir fry.</p>
@@ -142,35 +166,41 @@
 
 
     <!-- Best Sellers Section -->
-    <!-- <div class="grid best-seller-margin">
+    <div class="grid best-seller-margin">
 
       <div class="grid-item-1">
         <h1>Best Sellers</h1>
       </div>
 
       <div class="best-seller-border grid-item-2 grid-item-grid">
-        <img class="best-seller-img card-item-1 grid-item-img" src="./assets/BestSeller1.jpg" alt="small stock pot">
-        <h3 class="card-item-2 grid-item-headig">Stock Pot</h3>
+        <div class="img-hover-zoom grid-item-img">
+          <img class="best-seller-img card-item-1" src="./assets/BestSeller1.jpg" alt="small stock pot">
+        </div>
+        <h3 class="card-item-2 grid-item-heading">Stock Pot</h3>
         <p class="card-1-item-3 grid-item-text">Our fall bakeware is back again with warm fall colors. Check out our fall line of bakeware from fall colored pots to baking pans.
         </p>
         <button class="card-btn grid-item-btn">SHOP NOW</button>
       </div>
 
       <div class="best-seller-border grid-item-3 grid-item-grid">
-        <img class="best-seller-img card-item-1 grid-item-img" src="./assets/BestSeller2.jpg" alt="large stock pot">
-        <h3 class="card-item-2 grid-item-headig">Stock Pot</h3>
+        <div class="img-hover-zoom grid-item-img">
+          <img class="best-seller-img card-item-1" src="./assets/BestSeller2.jpg" alt="large stock pot">
+        </div>
+        <h3 class="card-item-2 grid-item-heading">Stock Pot</h3>
         <p class="card-2-item-3 grid-item-text">The Stock Pot is a cookware that is revolutionizing the way you cook! With its innovative design and advanced materials. The Stock Pot is the perfect choice for any kitchen. Its unique combination of ceramic and aluminum ensures that your food cooks evenly and quickly, while its non-stick coating ensures that nothing sticks to the surface. Whether you're cooking for one or the whole family, the Stock Pot is the perfect choice!
         </p>
         <button class="card-btn grid-item-btn">SHOP NOW</button>
       </div>
 
       <div class="best-seller-border grid-item-4 grid-item-grid">
-        <img class="best-seller-img card-item-1 grid-item-img" src="./assets/BestSeller3.jpg" alt="sause pan">
-        <h3 class="card-item-2 grid-item-headig">Sause Pan</h3>
+        <div class="img-hover-zoom grid-item-img">
+          <img class="best-seller-img card-item-1" src="./assets/BestSeller3.jpg" alt="sause pan">
+        </div>
+        <h3 class="card-item-2 grid-item-heading">Sause Pan</h3>
         <p class="card-3-item-3 grid-item-text">The Sauce Pan is the perfect cookware for making a variety of sauces, stews, soups, and more. Its stainless steel construction ensures even heat distribution for better and faster cooking. No matter what you're cooking, you can count on the Sauce Pan to help you cook like a pro.</p>
         <button class="card-btn grid-item-btn">SHOP NOW</button>
       </div>
-    </div> -->
+    </div>
     <!-- best sellers section -->
 
 
@@ -184,7 +214,7 @@
       
       <div class="row d-flex justify-content-center">
 
-        <div class="col-lg-4 col-md-8 col-sm-6 review-card-img-1">
+        <div class="col-lg-3 col-md-8 col-sm-6 review-card-img-1 review-margin-sides">
           <div class="review-card-dm">
             <div class="review-box-overlay">
               <h3 class="d-flex justify-content-center">Wok Star!</h3>
@@ -194,7 +224,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-8 col-sm-6 review-card-img-2 review-margin-card">
+        <div class="col-lg-3 col-md-8 col-sm-6 review-card-img-2 review-margin-card review-margin-sides">
           <div class="review-card-dm">
             <div class="review-box-overlay">
               <h3 class="d-flex justify-content-center">Built To Last</h3>
@@ -204,7 +234,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-8 col-sm-6 review-card-img-3 review-margin-card">
+        <div class="col-lg-3 col-md-8 col-sm-6 review-card-img-3 review-margin-card review-margin-sides">
           <div class="review-card-dm">
             <div class="review-box-overlay">
               <h3 class="d-flex justify-content-center">Best Cookware!</h3>
