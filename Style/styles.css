@@ -300,6 +300,10 @@ body{
     font-weight: 50;
 }
 
+.footer-btn-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* footer */
 
 @media (max-width: 992px){
@@ -371,6 +375,8 @@ body{
     .grid{
         grid-template-rows: auto 1fr 1fr .4fr 1fr .4;
         grid-template-columns: auto;
+        margin-left: 25px;
+    margin-right: 25px;
     }
 
     .best-seller-img{
@@ -453,6 +459,13 @@ body{
         margin-bottom: 0px;
     }
     /* reviews */
+
+    /* Footer */
+    .footer-flex{
+        display: flex;
+        justify-content: center;
+    }
+    /* footer */
 }
 
 @media (max-width: 768px){
@@ -529,6 +542,7 @@ body{
     }
 
     .footer-grid-item-1{
+        padding-left: 50px;
         grid-row: 1;
         grid-column: span 2;
     }
@@ -541,7 +555,7 @@ body{
         display: grid;
         max-width: 100%;
         grid-template-rows: auto auto;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto 5%;
     }
 
     .inner-footer-grid-item-1{
@@ -568,12 +582,12 @@ body{
     }
     
     .font-size{
-        font-size: 20px;
+        font-size: 16px;
     }
     
     .hero-text-position{
         margin-top: 200px;
-        margin-left: 60px;
+        margin-left: 40px;
         margin-bottom: 0px;
     }
     /* hero image */
@@ -654,4 +668,11 @@ body{
         margin-right: 12px;
     }
     /* reviews */
+
+    /* Footer */
+    .footer-grid-item-1{
+        padding-left: 20px;
+    }
+
+    /* footer */
 }
