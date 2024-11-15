@@ -299,6 +299,11 @@ body{
 .line-weight-light{
     font-weight: 50;
 }
+
+.footer-btn-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* footer */
 
 @media (max-width: 992px){
@@ -537,6 +542,7 @@ body{
     }
 
     .footer-grid-item-1{
+        padding-left: 50px;
         grid-row: 1;
         grid-column: span 2;
     }
@@ -549,7 +555,7 @@ body{
         display: grid;
         max-width: 100%;
         grid-template-rows: auto auto;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto 5%;
     }
 
     .inner-footer-grid-item-1{
@@ -661,7 +667,12 @@ body{
         margin-left: 12px;
         margin-right: 12px;
     }
-
-    
     /* reviews */
+
+    /* Footer */
+    .footer-grid-item-1{
+        padding-left: 20px;
+    }
+
+    /* footer */
 }
