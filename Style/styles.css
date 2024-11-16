@@ -140,6 +140,38 @@ body{
     padding-right: 10px;
     padding-bottom: 20px;
 }
+
+.color-picker-btn-1{
+    background-color: var(--color-option-red);
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+.color-picker-btn-2{
+    background-color: var(--color-option-orange);
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+.color-picker-btn-3{
+    background-color: var(--color-option-yellow);
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+.color-picker-btn-4{
+    background-color: var(--color-option-card);
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50px;
+}
 /* new arrivals section */
 
 
