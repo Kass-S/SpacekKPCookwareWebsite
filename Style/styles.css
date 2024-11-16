@@ -313,6 +313,10 @@ body{
         margin-left: 0px;
         margin-right: 48px;
     }
+
+    .header-text, .header-sale-text {
+        font-size: x-large;
+    }
     /* header */
 
     /* Hero Image */
@@ -591,6 +595,13 @@ body{
 }
 
 @media (max-width: 576px){
+    /* Header */
+    .header-logo{
+        margin-left: 0px;
+        margin-right: 12px;
+    }
+    /* header */
+
     /* Hero Image */
     .hero-img{
         height: 350px;   
